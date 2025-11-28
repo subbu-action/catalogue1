@@ -3,7 +3,7 @@ name: cicd
 on: [push] 
 jobs: 
    common: 
-      uses: subbu-action/reusable-workflows/.github/workflows/common.yaml@main 
+      uses: subbu-action/reusable-workflows/.github/workflows/common.yaml@main
       with: 
          project: roboshop 
          component: catalogue 
